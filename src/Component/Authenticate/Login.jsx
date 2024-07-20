@@ -82,7 +82,7 @@ const Login = () => {
                      <button className='form-control' type='submit'>Login</button>
                   </div>
                   <div>
-                     <p onClick={()=>navigate('/signup')}>Din't have an account? Sign up now</p>
+                     <p onClick={()=>navigate('/signup')} style={{ cursor: 'pointer' }}>Din't have an account? Sign up now</p>
                   </div>
                </form>
             </div>
